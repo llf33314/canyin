@@ -84,3 +84,8 @@ local.properties
 /*/target/
 *.iml
 /.idea/
+/eat-generator/src/main/java/com/gt/eat/generator/entity/
+/eat-generator/src/main/java/com/gt/eat/generator/service/
+/eat-generator/src/main/java/com/gt/eat/generator/xml/
+/eat-generator/src/main/java/com/gt/eat/generator/web/
+/eat-generator/src/main/java/com/gt/eat/generator/mapper/
