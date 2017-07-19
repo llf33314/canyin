@@ -18,4 +18,6 @@
         SELECT * FROM t_eat_evaluate_img WHEN id=#{id}
     </select>
 
+    <select id="queryTTT" resultType="com.gt.eat.entity.EatEvaluateImg"></select>
+
 </mapper>

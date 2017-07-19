@@ -3,6 +3,8 @@ package com.gt.eat.dao;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.gt.eat.entity.EatEvaluateImg;
 
+import java.util.List;
+
 /**
  * <p>
  * Mapper 接口
@@ -14,5 +16,7 @@ import com.gt.eat.entity.EatEvaluateImg;
 public interface EatEvaluateImgDAO extends BaseMapper< EatEvaluateImg > {
 
     EatEvaluateImg queryT( Integer id );
+
+    EatEvaluateImg queryTTT();
 
 }

@@ -1,5 +1,6 @@
 package com.gt.eat.base;
 
+import com.gt.eat.constant.LoginConst;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,7 @@ import javax.servlet.http.HttpSession;
 public abstract class BaseController {
     /**
      * 日志
+     * 常量
      */
     protected Logger logger = LoggerFactory.getLogger( this.getClass() );
 
@@ -26,5 +28,10 @@ public abstract class BaseController {
      */
     public String getSessionId( HttpSession session ) {
 	return session.getId();
+    }
+
+    public Object getLoginUser( HttpSession session ) {
+	Object o = session.getAttribute( LoginConst.CURRENT_USER );
+	return o;
     }
 }

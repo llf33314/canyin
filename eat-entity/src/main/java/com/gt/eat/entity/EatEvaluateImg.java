@@ -13,6 +13,7 @@ import java.io.Serializable;
 /**
  * <p>
  * <p>
+ * Lombok
  * </p>
  *
  * @author qushengkang
